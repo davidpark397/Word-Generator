@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css?family=Zen+Kaku+Gothic+Antique&display=swap');
+
+body {
+    font-family: 'Zen Kaku Gothic Antique', serif;
+    background: #9dedb3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.container {
+    width: 600px;
+    min-height: 200px;
+    background: #fff;
+    border-radius: 25px;
+    padding: 30px 30px 25px;
+}
+
+.container header{
+    font-size: 2em;
+    font-weight: 800;
+    text-align:center;
+}
+
+.container .content{
+    margin: 35px 0;
+}
+
+.content .word-area {
+    display: flex;
+    justify-content: center;
+    margin-bottom: -20px;
+    margin-top: -40px;
+}
+
+.content .definition-area {
+    display: flex;
+    justify-content: normal;
+    margin-top: 20px;
+    margin-bottom: -30px;
+}
+
+.content .def-area {
+    display: flex;
+    justify-content: normal;
+    margin-bottom: -50px;
+}
+
+.def-area .def {
+    font-size: 1.40em;
+    text-align: left;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.word-area .word {
+    border: 2px solid #9dedb3;
+    padding: 12px 20px;
+    font-size: 1.75em;
+    font-weight: 600;
+    text-align: center;
+}
+
+.definition-area .definition {
+    font-size: 1.35em;
+    text-align: left;
+}
+
+.container .buttons {
+    border-top: 1px solid #000;
+}
+
+.buttons .features {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
+.features u1 {
+    display: flex;
+}
+
+.features u1 li{
+    list-style: none;
+    margin: 0 5px;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #9dedb3;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+}
+
+.features u1 li:hover{
+    color:#fff;
+    background:#9dedb3;
+}
+
+.features button {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: #fff;
+    font-size: 16px;
+    padding: 17px 25px;
+    border-radius: 20px;
+    background: #9dedb3;
+}
