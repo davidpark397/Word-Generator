@@ -1,6 +1,6 @@
-# word-generator
+# Random Word Generator
 
-I created a word and definition generating website. Supports listening to the word and definition through the listen button, sharing the word/definition to twitter through the tweet button, and copying the text to a clipboard through the clipboard button.
+I created a word and definition generating website. The website has buttons for listening to the word/definition, sharing it to twitter, and copying the text to the clipboard.
 
 I leveraged the random word (https://random-word-api.herokuapp.com/home) and free dictionary (https://dictionaryapi.dev/) APIs.
 
